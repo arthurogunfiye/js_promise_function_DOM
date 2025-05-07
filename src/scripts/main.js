@@ -18,8 +18,8 @@ const printMessage = (message) => {
   const div = document.createElement('div');
 
   div.classList.add('message');
-  div.innerText = message;
-  document.body.appendChild(div);
+  div.textContent = message;
+  document.body.append(div);
 };
 
 const loginField = document.getElementById('login');
